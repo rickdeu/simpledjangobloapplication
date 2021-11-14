@@ -84,8 +84,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'blog',
-        'USER': 'blog',
-        'PASSWORD': '123tau123',
+        'USER': '*****',
+        'PASSWORD': '******',
         #'HOST': 'localhost',
         #'PORT': ''
     }
@@ -146,7 +146,7 @@ MEDIA_ROOT = 'static/img'
 #sending mail by g-mail 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'hangaloandre@gmail.com'
-EMAIL_HOST_PASSWORD = '123tau123'
+EMAIL_HOST_USER = '*******'
+EMAIL_HOST_PASSWORD = '*******'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
